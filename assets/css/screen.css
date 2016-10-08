@@ -1326,7 +1326,6 @@ body:not(.post-template) .post-title {
 .no-cover.author-head.main-header {
     height: 10vh;
     min-height: 100px;
-    background: transparent;
 }
 
 .author-profile {
