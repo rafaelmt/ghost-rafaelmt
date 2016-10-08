@@ -1,0 +1,23 @@
+{
+    "name": "rafaelmt",
+    "description": "My shot on a ghost theme",
+    "version": "0.1.0 ",
+    "engines": {
+        "ghost": "^0.9.0"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Rafael Medeiros Teixeira"
+    },
+    "gpm": {
+        "type": "theme",
+        "categories": [
+            "Minimal",
+            "Personal Blogs"
+        ]
+    },
+    "keywords": [
+        "ghost",
+        "theme"
+    ],
+}
