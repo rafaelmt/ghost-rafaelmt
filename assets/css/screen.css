@@ -947,12 +947,12 @@ body.nav-opened .nav {
 
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
+    font-family: 'Sanchez', serif;
+    color: #FFFFFF;
+    text-align: center;
     margin: 10px 0 10px 0;
     font-size: 5rem;
-    letter-spacing: -1px;
     font-weight: 700;
-    font-family: "Open Sans", sans-serif;
-    color: #fff;
 }
 
 .page-description {
@@ -960,7 +960,7 @@ body.nav-opened .nav {
     font-size: 2rem;
     line-height: 1.5em;
     font-weight: 400;
-    font-family: "Merriweather", serif;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 0.01rem;
     color: rgba(255,255,255,0.8);
 }
@@ -1011,10 +1011,12 @@ body.nav-opened .nav {
     position: relative;
     width: 80%;
     max-width: 710px;
-    margin: 4rem auto;
+    margin: 4rem 1em;
     padding-bottom: 4rem;
     border-bottom: #EBF2F6 1px solid;
     word-wrap: break-word;
+    display: inline-block;
+    width: 30%;
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
@@ -1036,6 +1038,10 @@ body.nav-opened .nav {
 
 body:not(.post-template) .post-title {
     font-size: 3.6rem;
+}
+
+.content {
+  padding: 0 5% 0 5%;
 }
 
 .post-title a {
