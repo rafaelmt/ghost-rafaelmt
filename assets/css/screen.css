@@ -27,7 +27,7 @@
    ========================================================================== */
 
 html {
-    font-family: sans-serif;
+    font-family: 'Sanchez', serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
@@ -184,7 +184,7 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: "Merriweather", serif;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 0.01rem;
     font-size: 1.8rem;
     line-height: 1.75em;
@@ -211,7 +211,7 @@ h4, h5, h6 {
     color: #2E2E2E;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Sanchez', serif;
     text-rendering: geometricPrecision;
 }
 

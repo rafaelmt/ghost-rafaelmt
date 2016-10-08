@@ -2,7 +2,6 @@
 {{!-- The tag above means - insert everything in this file into the {body} of the default.hbs template --}}
 
 {{!-- The big featured header --}}
-<link href="https://fonts.googleapis.com/css?family=Open+Sans|Sanchez" rel="stylesheet">
 <header class="main-header {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
     <nav class="main-nav overlay clearfix">
         {{#if @blog.navigation}}
