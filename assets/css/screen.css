@@ -1006,10 +1006,20 @@ body.nav-opened .nav {
     animation-delay: 0.1s;
 }
 
-/* Every post, on every page, gets this style on its <article> tag */
+/* Every post on every page (except home page), gets this style on its <article> tag */
 .post {
     position: relative;
     width: 80%;
+    max-width: 710px;
+    margin: 4rem auto;
+    padding-bottom: 4rem;
+    border-bottom: #EBF2F6 1px solid;
+    word-wrap: break-word;
+}
+
+/* Style for excerpts inside loop in home page */
+.loop .post {
+    position: relative;
     max-width: 710px;
     margin: 4rem 1em;
     padding-bottom: 4rem;
