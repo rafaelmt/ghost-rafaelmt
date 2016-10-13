@@ -950,19 +950,39 @@ body.nav-opened .nav {
     font-family: 'Sanchez', serif;
     color: #FFFFFF;
     text-align: center;
-    margin: 10px 0 10px 0;
+    margin: 10px 0;
     font-size: 5rem;
     font-weight: 700;
 }
 
+.connect-group {
+    color: #FFFFFF;
+    text-align: center;
+    margin: 5px auto;
+    font-size: 2rem;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.connect-group a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.connect {
+    margin: 0px 10px;
+}
+
+
 .page-description {
-    margin: 0;
+    margin: 10% auto;
     font-size: 2rem;
     line-height: 1.5em;
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 0.01rem;
-    color: rgba(255,255,255,0.8);
+    color: #111111;
+    text-align: center;
 }
 
 .no-cover.main-header {
@@ -989,7 +1009,7 @@ body.nav-opened .nav {
 }
 
 .no-cover .page-description {
-    color: #FFFFFF;
+    color: #;
 }
 
 /* Add subtle load-in animation for content on the home page */
